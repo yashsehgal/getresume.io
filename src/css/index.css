@@ -50,14 +50,14 @@ h1 {
 }
 
 .demo-card {
-  padding-top: 6em;
-  padding-bottom: 4em;
-  padding-right: 4em;
-  padding-left: 4em;
   text-align: center;
   border: none;
+  padding: 4em;
   border-radius: 6px;
+  text-align: center;
   box-shadow: 3px 9px 120px rgba(128, 128, 128, 0.329);
+  overflow: hidden;
+  box-sizing: border-box;
 }
 
 #demo-card-title {
@@ -75,4 +75,24 @@ h1 {
   box-shadow: 6px 12px 120px rgba(128, 128, 128, 0.329);
   width: 56%;
   margin-top: 10em;
+}
+
+@media screen and (max-width: 1300px) {
+  #features-section {
+    display: none;
+    padding: 0;
+    width: 40%;
+  }
+  .notification {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  h1 {
+    font-size: 42px;
+  }
+  .notification button {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }

@@ -45,8 +45,8 @@ function App() {
               Create resumes which are pleasant in design and looks good to the recruiters. 
               You can select from various color options and themes, layouts and download for 
               free. You just need to log in first.
-            </p><br /><br /><br /><br /><br />
-            <button className="dark">Create your first Resume <i className="fas fa-arrow-right" id="arrow-in-button"></i></button>
+            </p><br /><br /><br /><br /><br /><br />
+            <button className="dark" id="demo-button">Create your first Resume <i className="fas fa-arrow-right" id="arrow-in-button"></i></button>
           </div>
           <div id="inner-feature-section">
             <div className="demo-card">

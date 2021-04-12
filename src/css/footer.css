@@ -39,4 +39,15 @@ ul li {
 #footer-option-list {
   margin-right: 5em;
 }
+
+@media screen and (max-width: 1000px) {
+  .Footer-upper-section {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #footer-option-list {
+    text-align: center;
+  }
+}
 /*# sourceMappingURL=footer.css.map */
