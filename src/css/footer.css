@@ -1,0 +1,42 @@
+.Footer {
+  padding: 3em;
+  background-color: #0000b4;
+  margin-top: 8em;
+}
+
+.light-text {
+  color: white;
+}
+
+ul {
+  margin: 0;
+  padding: 0px;
+}
+
+ul li {
+  list-style: none;
+  line-height: 24px;
+}
+
+.footer-option {
+  color: rgba(255, 255, 255, 0.623);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.footer-option:hover {
+  -webkit-transition: 0.1s ease-in-out;
+  transition: 0.1s ease-in-out;
+  color: white;
+}
+
+.Footer-upper-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#footer-option-list {
+  margin-right: 5em;
+}
+/*# sourceMappingURL=footer.css.map */

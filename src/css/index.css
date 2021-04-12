@@ -1,0 +1,78 @@
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 64px;
+}
+
+.center {
+  text-align: center;
+}
+
+.fab,
+.fas,
+.far {
+  color: #292929;
+  font-size: 28px;
+  margin-left: 0.6em;
+  margin-right: 0.6em;
+}
+
+.demo_resume {
+  margin-top: 6em;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  padding: 2em;
+  width: 60%;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  box-shadow: 6px 12px 120px rgba(128, 128, 128, 0.329);
+}
+
+#social-icons, #demo-name, #demo-title {
+  text-align: center;
+}
+
+#social-icons {
+  margin-bottom: 2em;
+}
+
+#demo-resume-header {
+  border-bottom: #292929 solid;
+  border-width: 1px;
+  background-color: white;
+  width: 100%;
+}
+
+#features-section {
+  margin-top: 12em;
+  display: flex;
+}
+
+.demo-card {
+  padding-top: 6em;
+  padding-bottom: 4em;
+  padding-right: 4em;
+  padding-left: 4em;
+  text-align: center;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 3px 9px 120px rgba(128, 128, 128, 0.329);
+}
+
+#demo-card-title {
+  margin-top: 4em;
+}
+
+#inner-feature-section {
+  margin-right: 4em;
+}
+
+.notification {
+  padding: 2em;
+  background-color: white;
+  overflow: hidden;
+  box-shadow: 6px 12px 120px rgba(128, 128, 128, 0.329);
+  width: 56%;
+  margin-top: 10em;
+}

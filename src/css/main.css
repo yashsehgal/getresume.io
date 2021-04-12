@@ -1,4 +1,109 @@
 @import url("index.css");
 @import url("App.css");
 @import url("header.css");
+@import url("footer.css");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css");
+body {
+  margin-top: 0;
+  margin-right: 0;
+  margin-left: 0;
+  margin-bottom: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.section {
+  max-width: 1400px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 3.6em;
+  margin-bottom: 3.6em;
+}
+
+button {
+  padding: 1em;
+  font-family: inherit;
+  color: white;
+  font-weight: 600;
+  background-color: blue;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: none;
+  border-radius: 6px;
+}
+
+.dark:focus {
+  outline: none;
+}
+
+.dark:hover {
+  background-color: #0000c8;
+}
+
+.center-button {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.description {
+  width: 46%;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+#arrow-in-button {
+  color: white;
+  font-size: 20px;
+}
+
+#arrow-in-button-dark {
+  color: blue;
+  font-size: 20px;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.light {
+  padding: 1em;
+  font-family: inherit;
+  color: blue;
+  font-weight: 600;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: none;
+  border-radius: 6px;
+}
+
+.light:hover {
+  color: #0000c8;
+}
+
+button {
+  cursor: pointer;
+}
+
+#button_layer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
 /*# sourceMappingURL=main.css.map */
