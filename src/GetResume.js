@@ -12,11 +12,11 @@ const GetResume = () => {
     <div className="GetResume">
       <Header />
         <Router>
-          <Route exact path="/getresume.io/" component={App} />
-          <Route exact path="/getresume.io/home" component={App} />
-          <Route exact path="/getresume.io" component={App} />
-          <Route exact path="/getresume.io/login"  component={LoginActivity} />
-          <Route exact path="/getresume.io/signup" component={SignupActivity} />
+          <Route exact path="/getresume.io/" exact component={App} />
+          <Route exact path="/getresume.io/home" exact component={App} />
+          <Route exact path="/getresume.io" exact component={App} />
+          <Route exact path="/getresume.io/login" exact component={LoginActivity} />
+          <Route exact path="/getresume.io/signup" exact component={SignupActivity} />
 
           {/* Setting up the 404 PAGE NOT FOUND module using Routes */}
           {/* <Route component={PageNotFound} /> */}
