@@ -6,7 +6,9 @@ const App = () => {
     <div className="App">
       <div id="landing-section" className="section">
         <h1 className="center">Get Perfect Resumes in <br /> just one click</h1>
-        <button className="dark center-button">Create your first Resume <i className="fas fa-arrow-right" id="arrow-in-button"></i></button>
+        <form action="/getresume.io/create-resume/">
+          <button className="dark center-button">Create your first Resume <i className="fas fa-arrow-right" id="arrow-in-button"></i></button>
+        </form>
         {/* Demo Resume Container */}
         <div className="demo_resume">
           <div id="demo-resume-header">
@@ -44,7 +46,9 @@ const App = () => {
               You can select from various color options and themes, layouts and download for 
               free. You just need to log in first.
             </p><br /><br /><br /><br /><br /><br />
-            <button className="dark" id="demo-button">Create your first Resume <i className="fas fa-arrow-right" id="arrow-in-button"></i></button>
+            <form action="/getresume.io/create-resume">
+              <button className="dark" id="demo-button">Create your first Resume <i className="fas fa-arrow-right" id="arrow-in-button"></i></button>
+            </form>
           </div>
           <div id="inner-feature-section">
             <div className="demo-card">
