@@ -8,7 +8,7 @@ const SignupActivity = () => {
         <h2 className="headline">Welcome! Hope you'll enjoy making Resume</h2>
         <p className="title-description">Create your GetResume Account and make wonderful Resumes</p>
         <form method="GET" className="FormActivity">
-          <p className="title-description">Already have an account? <a href="/login">Login Instead</a></p>
+          <p className="title-description">Already have an account? <a href="/getresume.io/login">Login Instead</a></p>
           <div id="form-layer">
             <div id="form-block">
               <label className="form-input-label" for="first-name">First Name</label>
