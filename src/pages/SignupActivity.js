@@ -1,5 +1,5 @@
 
-import '../css/SignupActivityStyle.css';
+import '../css/main.css';
 
 const SignupActivity = () => {
   return (

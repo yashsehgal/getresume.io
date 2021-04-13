@@ -1,5 +1,5 @@
 
-import '../css/LoginActivityStyle.css';
+import '../css/main.css';
 
 const LoginActivity = () => {
   return (
