@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACA,AAAA,aAAa,CAAC;EACZ,SAAS,EAAE,MAAM;EACjB,YAAY,EAAE,IAAI;EAClB,WAAW,EAAE,IAAI;CAClB",
+    "sources": [
+        "CreateResumeStyle.scss"
+    ],
+    "names": [],
+    "file": "CreateResumeStyle.css"
+}
