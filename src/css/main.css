@@ -91,6 +91,7 @@ button {
           align-items: center;
   border: none;
   border-radius: 6px;
+  margin-left: 2em;
 }
 
 .light:hover {
@@ -105,5 +106,11 @@ button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-top: 1em;
+}
+
+.title-description {
+  color: gray;
+  margin-top: -0.4em;
 }
 /*# sourceMappingURL=main.css.map */

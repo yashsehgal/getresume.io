@@ -1,1 +1,74 @@
-/* No CSS *//*# sourceMappingURL=SignupActivityStyle.css.map */
+.SignupActivity {
+  max-width: 1400px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#form-container-signup {
+  padding: 3em;
+  background-color: white;
+  -webkit-box-shadow: 3px 9px 120px rgba(128, 128, 128, 0.329);
+          box-shadow: 3px 9px 120px rgba(128, 128, 128, 0.329);
+  border-radius: 12px;
+  margin-top: 2em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#form-layer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 2em;
+}
+
+.form-input-signup {
+  padding: 1em;
+  border: #0000c8 solid;
+  border-radius: 4px;
+  border-width: 2.2px;
+  width: 90%;
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+
+.form-input-signup:focus {
+  outline: none;
+  background-color: rgba(0, 0, 200, 0.07);
+}
+
+#form-block {
+  margin-right: 3em;
+}
+
+select, .gender-select {
+  padding: 1em;
+  border: #0000c8 solid;
+  border-radius: 4px;
+  border-width: 2.2px;
+  border: none;
+  width: 90%;
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+
+select:focus, .gender-select:focus {
+  outline: none;
+}
+
+option, #gender-option {
+  font-weight: inherit;
+}
+
+.FormActivity {
+  margin-top: 2em;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+}
+/*# sourceMappingURL=SignupActivityStyle.css.map */
