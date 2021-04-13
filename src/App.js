@@ -1,11 +1,9 @@
-import Header from './Components/Header';
-import Footer from './Components/Footer';
+
 import './css/main.css';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <Header></Header>
       <div id="landing-section" className="section">
         <h1 className="center">Get Perfect Resumes in <br /> just one click</h1>
         <button className="dark center-button">Create your first Resume <i className="fas fa-arrow-right" id="arrow-in-button"></i></button>
@@ -73,7 +71,6 @@ function App() {
           </div>
         </div>
       </div>
-      <Footer></Footer>
     </div>
   );
 }
