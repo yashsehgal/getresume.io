@@ -1,6 +1,7 @@
 import React from 'react'
 import LoginActivity from './pages/LoginActivity';
 import SignupActivity from './pages/SignupActivity';
+import PageNotFound from './pages/PageNotFound';
 import App from './App';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
@@ -11,11 +12,14 @@ const GetResume = () => {
     <div className="GetResume">
       <Header />
         <Router>
-          <Route path="/" exact component={App} />
-          <Route path="/home" exact component={App} />
-          <Route path="/getresume.io" exact component={App} />
-          <Route path="/login" exact component={LoginActivity} />
-          <Route path="/signup" exact component={SignupActivity} />
+          <Route exact path="/getresume.io/" component={App} />
+          <Route exact path="/getresume.io/home" component={App} />
+          <Route exact path="/getresume.io" component={App} />
+          <Route exact path="/getresume.io/login"  component={LoginActivity} />
+          <Route exact path="/getresume.io/signup" component={SignupActivity} />
+
+          {/* Setting up the 404 PAGE NOT FOUND module using Routes */}
+          {/* <Route component={PageNotFound} /> */}
         </Router>
       <Footer />
     </div>
