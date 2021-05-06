@@ -21,27 +21,33 @@ const CreateResume = () => {
                 <input type="text" name="last-name" className="form-input-signup" placeholder="Enter your Last Name" />
               </div>
             </div>
-
+            
             {/* Layer 02 */}
             <div id="form-layer">
               <div id="form-block">
-                  <a>
+                <form action="getProfileURL();">
+                  <a onClick="getProfileURL('github');">
                     <i className="fab fa-github"></i>
                   </a>
-                  <a>
+                  <a onClick="getProfileURL('linkedin');">
                     <i className="fab fa-linkedin"></i>
                   </a>
-                  <a>
+                  <a onClick="getProfileURL('twitter');">
                     <i className="fab fa-twitter"></i>
                   </a>
-                  <a>
-                    <i className="far fa-envelope"></i>
-                  </a>
-                  <a>
+                  <a onClick="getProfileURL('portfolio');">
                     <i class="fas fa-globe"></i>
                   </a>
+                  <a onClick="getProfileURL('behance');">
+                    <i className="fab fa-behance"></i>
+                  </a>
+                  <a onClick="getProfileURL('dribble');">
+                    <i className="fab fa-dribbble"></i>
+                  </a>
+                  </form>
               </div>
             </div>
+            <input type="url" className="form-input" id="profile_url" />
 
           </form>
         </div>
@@ -53,7 +59,14 @@ const CreateResume = () => {
       </div>
     </div>
   )
-
+  
 };
+
+const getProfileURL = (profile_name) => {
+  if (profile_name != '\0' && profile_name =='github') {
+    document.getElementById('profile_url').placeholder = "Enter your GitHub Profile URL";
+    console.log("this block is running");
+  }
+}
 
 export default CreateResume;
