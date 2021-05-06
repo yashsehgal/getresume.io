@@ -42,6 +42,7 @@ button {
 
 .dark:focus {
   outline: none;
+  color: white;
 }
 
 .dark:hover {
