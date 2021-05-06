@@ -13,7 +13,7 @@ const Footer = () => {
               <a href="#" className="footer-option">Community Guidelines</a>
             </li>
             <li>
-              <a href="designsystemsoss.github.io" target="_blank" className="footer-option">The DesignSystems</a>
+              <a href="https://designsystemsoss.github.io" target="_blank" className="footer-option">The DesignSystems</a>
             </li>
             <li>
               <a href="#" target="_blank" className="footer-option">Contribution</a>
@@ -34,10 +34,10 @@ const Footer = () => {
               <a href="#" target="_blank" className="footer-option">Community Guidelines</a>
             </li>
             <li>
-              <a href="designsystems.github.io/eccentrictouch.website.frontend" target="_blank" className="footer-option">Eccentric Touch</a>
+              <a href="https://designsystemsoss.github.io/eccentrictouch.website.frontend" target="_blank" className="footer-option">Eccentric Touch</a>
             </li>
             <li>
-              <a href="designsystems.github.io/eccentrictouch.docs" target="_blank" className="footer-option">Eccentric Touch Docs</a>
+              <a href="https://designsystemsoss.github.io/eccentrictouch.docs" target="_blank" className="footer-option">Eccentric Touch Docs</a>
             </li>
             <li>
               <a href="https://github.com/DesignSystemsOSS/eccentrictouch/blob/master/LICENSE" target="_blank" className="footer-option">License</a>
