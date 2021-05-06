@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/getresume.io/static/css/main.39b8f805.chunk.css",
-    "main.js": "/getresume.io/static/js/main.b3224ebb.chunk.js",
-    "main.js.map": "/getresume.io/static/js/main.b3224ebb.chunk.js.map",
+    "main.js": "/getresume.io/static/js/main.17091673.chunk.js",
+    "main.js.map": "/getresume.io/static/js/main.17091673.chunk.js.map",
     "runtime-main.js": "/getresume.io/static/js/runtime-main.049b1a6e.js",
     "runtime-main.js.map": "/getresume.io/static/js/runtime-main.049b1a6e.js.map",
-    "static/js/2.564ac6b5.chunk.js": "/getresume.io/static/js/2.564ac6b5.chunk.js",
-    "static/js/2.564ac6b5.chunk.js.map": "/getresume.io/static/js/2.564ac6b5.chunk.js.map",
+    "static/js/2.9dd99e82.chunk.js": "/getresume.io/static/js/2.9dd99e82.chunk.js",
+    "static/js/2.9dd99e82.chunk.js.map": "/getresume.io/static/js/2.9dd99e82.chunk.js.map",
     "static/js/3.cd1ee212.chunk.js": "/getresume.io/static/js/3.cd1ee212.chunk.js",
     "static/js/3.cd1ee212.chunk.js.map": "/getresume.io/static/js/3.cd1ee212.chunk.js.map",
     "index.html": "/getresume.io/index.html",
     "static/css/main.39b8f805.chunk.css.map": "/getresume.io/static/css/main.39b8f805.chunk.css.map",
-    "static/js/2.564ac6b5.chunk.js.LICENSE.txt": "/getresume.io/static/js/2.564ac6b5.chunk.js.LICENSE.txt"
+    "static/js/2.9dd99e82.chunk.js.LICENSE.txt": "/getresume.io/static/js/2.9dd99e82.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.049b1a6e.js",
-    "static/js/2.564ac6b5.chunk.js",
+    "static/js/2.9dd99e82.chunk.js",
     "static/css/main.39b8f805.chunk.css",
-    "static/js/main.b3224ebb.chunk.js"
+    "static/js/main.17091673.chunk.js"
   ]
 }
