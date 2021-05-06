@@ -2,6 +2,9 @@
 import '../css/main.css';
 
 const CreateResume = () => {
+
+  
+
   return (
     <div className="CreateResume">
 
