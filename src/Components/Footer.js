@@ -46,9 +46,9 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="Footer-lower-section">
-
-      </div>
+      {/* <div className="Footer-lower-section">
+        Designed and Developed by The DesignSystems Community
+      </div> */}
     </div>
   )
 };
